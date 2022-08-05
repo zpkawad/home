@@ -248,7 +248,10 @@ button.close {
 .banner-bottom-image-text-left{
 	padding:5em 10em 6.95em 18em;
 /*-- agileits --*/
-	background:#EEE048;
+	/* background:#EEE048; */
+	/* background:#FF8B8B; */
+	background:#F9F7E8;
+
 }
 .banner-bottom-image-text-right{
 	padding:0;
