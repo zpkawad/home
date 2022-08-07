@@ -1114,28 +1114,32 @@ div#myTabContent {
 /*-- //about --*/
 /*-- to-top --*/
 #toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 20px;
-	right: 2%;
-	overflow: hidden;
-	z-index: 999; 
-	width: 32px;
-	height: 32px;
-	border: none;
-	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    overflow: hidden;
+    text-align: center;
+    margin-inline: auto;
+    z-index: 999;
+    /* width: 92px; */
+    padding: 4px;
+    /* height: 75px; */
+    border: none;
+    text-indent: 100%;
+    background: url(../images/arrow.png) no-repeat 0px 0px;
 }
 #toTopHover {
-	width: 32px;
-	height: 32px;
-	display: block;
-	overflow: hidden;
-	float: right;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter: alpha(opacity=0);
+    width: 14px;
+    height: 18px;
+    display: block;
+    overflow: hidden;
+    float: initial;
+    margin-bottom: 2em;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
 }
 /*-- //to-top --*/
 /*-----start-responsive-design------*/
