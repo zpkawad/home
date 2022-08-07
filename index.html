@@ -49,8 +49,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <script src="js/jquery.vide.min.js"></script>
-	<div data-vide-bg="video/srix">
 		<div class="center-container">
+
+
 			<div class="navigation">
 				<div class="container">
 					<div class="logo">
@@ -80,44 +81,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="clearfix"></div>
 				</div>
 			</div>
-			<div class="w3ls_banner_info">
-				<div class="container">
-					<div class="w3l_banner_logo">
-						<h2>ZP</h2>
-					</div>
-					<h3>ZP Kawad School </h3>
-					
-					<div class="more">
-						<a href="http://www.school.org/Demo/pdf/profile.pdf" target="_blank" class="hvr-underline-from-center" >Learn More</a>
-					</div>
-					<!--modal-video-->
-					<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									Schooling
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-								</div>
-								<section>
-									<div class="modal-body">
-										<img src="images/17.jpg" alt=" " class="img-responsive" />
-										<p>Ut enim ad minima veniam, quis nostrum 
-											exercitationem ullam corporis suscipit laboriosam, 
-											nisi ut aliquid ex ea commodi consequatur? Quis autem 
-											vel eum iure reprehenderit qui in ea voluptate velit 
-											esse quam nihil molestiae consequatur, vel illum qui 
-											dolorem eum fugiat quo voluptas nulla pariatur.
-											<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-												esse quam nihil molestiae consequatur.</i></p>
-									</div>
-								</section>
-							</div>
+			<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+				<!-- Overlay -->
+				<div class="overlay"></div>
+			  
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#bs-carousel" data-slide-to="1"></li>
+				  <!-- <li data-target="#bs-carousel" data-slide-to="2"></li> -->
+				</ol>
+				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				  <div class="item slides active">
+					<div class="slide-1"></div>
+					<div class="hero">
+						<div class="w3l_banner_logo">
+							<h2>ZP</h2>
 						</div>
+					  <hgroup>
+						  <h1>ZP School, Kawad</h1>        
+						  <h3>Play, Learn and Propagate</h3>
+					  </hgroup>
+					  <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
 					</div>
-				</div>
-			</div>
+				  </div>
+				  <div class="item slides">
+					<div class="slide-2"></div>
+					<div class="hero">        
+					  <hgroup>
+						  <h1>तेजस्वि नावधीतमस्तु</h1>        
+						  <h3>...</h3>
+					  </hgroup>       
+					  <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+					</div>
+				  </div>
+				  <!-- <div class="item slides">
+					<div class="slide-3"></div>
+					<div class="hero">        
+					  <hgroup>
+						  <h1>We are amazing</h1>        
+						  <h3>Get start your next awesome project</h3>
+					  </hgroup>
+					  <button class="btn btn-hero btn-lg" role="button">See all features</button>
+					</div>
+				  </div> -->
+				</div> 
+			  </div>
+
+
 		</div>
-	</div>
+
 <!-- about -->
 	<!--<div class="about">
 		<div class="container">
@@ -305,7 +320,10 @@ The total enrollment of students in our school is 235. There are 1st to 8th clas
 		<div class="w3agile_gallery_grids">
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" href="assets/lab.jpg" title="From 1980 the school was like before 2012 and now after 2012">
+					<!-- title="From 1980 the school was like before  -->
+					<a class="sb" href="assets/lab.jpg" 
+					2012 and now after 2012"
+					>
 						<figure>
 							<img src="assets/lab.jpg" alt="" class="img-responsive" />
 							<figcaption>
@@ -319,7 +337,10 @@ The total enrollment of students in our school is 235. There are 1st to 8th clas
 			</div>
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" title="This is the first Tablet school where all students from std. 1st have been using Tablet to learn. Dr. Vijay Bhatkar" href="images/9.jpg">
+					<!-- title="This is the first Tablet school where all students from std. 1st have been using Tablet to learn. Dr. Vijay Bhatkar"  -->
+					<a class="sb" 
+					href="images/9.jpg"
+					>
 						<figure>
 							<img src="assets/lazim.jpg" alt="" class="img-responsive" />
 							<figcaption>
@@ -333,8 +354,11 @@ The total enrollment of students in our school is 235. There are 1st to 8th clas
 			</div>
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" title="Few years back, and had only 32 students, now has more than 550 enrolments 
-of students with 3500 plus admissions on waiting list for next year?" href="images/10.jpg">
+					<!-- title="Few years back, and had only 32 students, now  -->
+					<a class="sb" 
+					has more than 550 enrolments
+
+of students with 3500 plus admissions on waiting list for next year?" href="assets/school2.jpg">
 						<figure>
 							<img src="assets/school2.jpg" alt="" class="img-responsive" />
 							<figcaption>
@@ -347,13 +371,17 @@ of students with 3500 plus admissions on waiting list for next year?" href="imag
 			</div>
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" title="346 teachers were awarded the National Teachers Award 2015 By the President of India" href="images/11.jpg">
+					<!-- title="346 teachers were awarded the National Teachers Award 2015 By the President of India"  -->
+					<a class="sb" 
+					href="images/11.jpg"
+					>
 						<figure>
-							<img src="assets/" alt="" class="img-responsive" />
+							<img src="assets/school3.jpg" alt="" class="img-responsive" />
 							<figcaption>
-								<h4>Teacher Awards</h4>
+								<h4>Calm Vicinity</h4>
 						  <p>
-									346 teachers were awarded the National Teachers Award 2015 By the President of India								</p>
+							Premises for various activities
+						  </p>
 						  </figcaption>
 						</figure>
 					</a>
@@ -361,13 +389,15 @@ of students with 3500 plus admissions on waiting list for next year?" href="imag
 			</div>
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" title="Internal School Science Projects Activity" href="images/12.jpg">
+					<!-- title="Internal School Science Projects Activity"  -->
+					<a class="sb" 
+					href="images/12.jpg"
+					>
 						<figure>
-							<img src="images/12.jpg" alt="" class="img-responsive" />
+							<img src="assets/exhibit.jpg" alt="" class="img-responsive" />
 							<figcaption>
-								<h4>Science Projects in School  </h4>
-						  <p>
-									Internal School Science Projects Activity								</p>
+								<h4>Building confidence and social presence</h4>
+						  <p>Exhibiting practical knowledge around the village</p>
 						  </figcaption>
 						</figure>
 					</a>
@@ -375,13 +405,16 @@ of students with 3500 plus admissions on waiting list for next year?" href="imag
 			</div>
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" title="Music Practice with Ware Teacher" href="images/13.jpg">
+					<!-- title="Music Practice with Ware Teacher"  -->
+					<a class="sb" 
+					href="images/13.jpg"
+					>
 						<figure>
-							<img src="images/13.jpg" alt="" class="img-responsive" />
+							<img src="assets/felicitations.jpg" alt="" class="img-responsive" />
 							<figcaption>
-								<h4>Music Practice with Teacher</h4>
+								<h4>Felicitating people</h4>
 						  <p>
-									Practice and learning Music instrument with Dattatray Ware Sir.								</p>
+									Organizing and Felicitation Functions							</p>
 						  </figcaption>
 						</figure>
 					</a>
@@ -389,13 +422,16 @@ of students with 3500 plus admissions on waiting list for next year?" href="imag
 			</div>
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" title="View the planets and stars using telescope" href="images/14.jpg">
+					<!-- title="View the planets and stars using telescope"  -->
+					<a class="sb" 
+					href="images/14.jpg"
+					>
 						<figure>
-							<img src="images/14.jpg" alt="" class="img-responsive" />
+							<img src="assets/lab2.jpg" alt="" class="img-responsive" />
 							<figcaption>
-								<h4>One Session with Telescope </h4>
+								<h4>Equipments for exploring world </h4>
 						  <p>
-									One session about Akashganga - Watching planets and stars								</p>
+									Encouraging curiosity and knowledge							</p>
 						  </figcaption>
 						</figure>
 					</a>
@@ -403,13 +439,16 @@ of students with 3500 plus admissions on waiting list for next year?" href="imag
 			</div>
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
-					<a class="sb" title="Holi Celebration in School" href="images/15.jpg">
+					<!-- title="Holi Celebration in School"  -->
+					<a class="sb" 
+					href="images/15.jpg"
+					>
 						<figure>
-							<img src="images/15.jpg" alt="" class="img-responsive" />
+							<img src="assets/lab3.jpg" alt="" class="img-responsive" />
 							<figcaption>
-								<h4>Holi Celebration in School </h4>
+								<h4>Chemistry Lab </h4>
 						  <p>
-									Students Celebrating colorful Holi in School.								</p>
+									Experimenting solutions for chemistry								</p>
 						  </figcaption>
 						</figure>
 					</a>
